@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>someProperty</key>
+	<dict>
+		<key>type</key>
+		<string>MyEnum</string>
+		<key>init</key>
+		<string>kcProperty2</string>
+		<key>IBLabel</key>
+		<string>Some Name that will replace the camelBack default fomr IB</string>
+		<key>inspectorValues</key>
+		<dict>
+			<key>kcPorperty1</key>
+			<string>Property One</string>
+			<key>kcPorperty2</key>
+			<string>Property Two</string>
+			<key>kcPorperty3</key>
+			<string>Property Three</string>
+			<key>kcPorperty4</key>
+			<string>Property Fore</string>
+		</dict>
+	</dict>
+	<key>somePropertyWithCGSize</key>
+	<dict>
+		<key>type</key>
+		<string>CGSize</string>
+		<key>IBLabel</key>
+		<string>Some Offset</string>
+		<key>inspectorValueLabel</key>
+		<dict>
+			<key>width</key>
+			<string>horizontal</string>
+			<key>height</key>
+			<string>vartical</string>
+		</dict>
+	</dict>
+	<key>somePropertyWithARage</key>
+	<dict>
+		<key>type</key>
+		<string>Int</string>
+		<key>init</key>
+		<integer>0</integer>
+		<key>inspectorRage</key>
+		<dict>
+			<key>minValue</key>
+			<integer>0</integer>
+			<key>maxValue</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

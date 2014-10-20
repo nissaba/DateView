@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5151E5E019EA3B33005959E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151E5DF19EA3B33005959E6 /* AppDelegate.swift */; };
+		5151E5E219EA3B33005959E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151E5E119EA3B33005959E6 /* ViewController.swift */; };
+		5151E5E519EA3B33005959E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5151E5E319EA3B33005959E6 /* Main.storyboard */; };
+		5151E5E719EA3B33005959E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5151E5E619EA3B33005959E6 /* Images.xcassets */; };
+		5151E5EA19EA3B33005959E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5151E5E819EA3B33005959E6 /* LaunchScreen.xib */; };
+		5151E5F619EA3B33005959E6 /* TwoLineDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151E5F519EA3B33005959E6 /* TwoLineDateTests.swift */; };
+		5151E60019EA3B4A005959E6 /* LiveNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151E5FF19EA3B4A005959E6 /* LiveNibView.swift */; };
+		5151E60219EA3B6E005959E6 /* TwoLineDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151E60119EA3B6E005959E6 /* TwoLineDateView.swift */; };
+		5151E60419EA3B8C005959E6 /* TwoLineDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5151E60319EA3B8C005959E6 /* TwoLineDateView.xib */; };
+		51D63E4419F3094400AFF471 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D63E4319F3094300AFF471 /* DateView.swift */; };
+		51D63E4619F30D5C00AFF471 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D63E4519F30D5C00AFF471 /* QuartzCore.framework */; };
+		51ECE04F19F3FD0E00BFD8C6 /* Foobar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51ECE04E19F3FD0E00BFD8C6 /* Foobar.plist */; };
+		51ECE05219F455E200BFD8C6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51ECE05119F453EF00BFD8C6 /* Roboto-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5151E5F019EA3B33005959E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5151E5D219EA3B33005959E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5151E5D919EA3B33005959E6;
+			remoteInfo = TwoLineDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5151E5DA19EA3B33005959E6 /* TwoLineDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoLineDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5151E5DE19EA3B33005959E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5151E5DF19EA3B33005959E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5151E5E119EA3B33005959E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5151E5E419EA3B33005959E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5151E5E619EA3B33005959E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5151E5E919EA3B33005959E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5151E5EF19EA3B33005959E6 /* TwoLineDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoLineDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5151E5F419EA3B33005959E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5151E5F519EA3B33005959E6 /* TwoLineDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineDateTests.swift; sourceTree = "<group>"; };
+		5151E5FF19EA3B4A005959E6 /* LiveNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveNibView.swift; sourceTree = "<group>"; };
+		5151E60119EA3B6E005959E6 /* TwoLineDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLineDateView.swift; sourceTree = "<group>"; };
+		5151E60319EA3B8C005959E6 /* TwoLineDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoLineDateView.xib; sourceTree = "<group>"; };
+		51D63E4319F3094300AFF471 /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		51D63E4519F30D5C00AFF471 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		51ECE04E19F3FD0E00BFD8C6 /* Foobar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Foobar.plist; sourceTree = "<group>"; };
+		51ECE05119F453EF00BFD8C6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5151E5D719EA3B33005959E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D63E4619F30D5C00AFF471 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151E5EC19EA3B33005959E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5151E5D119EA3B33005959E6 = {
+			isa = PBXGroup;
+			children = (
+				5151E5DC19EA3B33005959E6 /* TwoLineDate */,
+				5151E5F219EA3B33005959E6 /* TwoLineDateTests */,
+				5151E5DB19EA3B33005959E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5151E5DB19EA3B33005959E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5151E5DA19EA3B33005959E6 /* TwoLineDate.app */,
+				5151E5EF19EA3B33005959E6 /* TwoLineDateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5151E5DC19EA3B33005959E6 /* TwoLineDate */ = {
+			isa = PBXGroup;
+			children = (
+				5151E5DF19EA3B33005959E6 /* AppDelegate.swift */,
+				5151E5E119EA3B33005959E6 /* ViewController.swift */,
+				5151E5FF19EA3B4A005959E6 /* LiveNibView.swift */,
+				5151E60119EA3B6E005959E6 /* TwoLineDateView.swift */,
+				51D63E4319F3094300AFF471 /* DateView.swift */,
+				5151E60319EA3B8C005959E6 /* TwoLineDateView.xib */,
+				5151E5E319EA3B33005959E6 /* Main.storyboard */,
+				5151E5E619EA3B33005959E6 /* Images.xcassets */,
+				5151E5E819EA3B33005959E6 /* LaunchScreen.xib */,
+				5151E5DD19EA3B33005959E6 /* Supporting Files */,
+			);
+			path = TwoLineDate;
+			sourceTree = "<group>";
+		};
+		5151E5DD19EA3B33005959E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51ECE05019F453D800BFD8C6 /* fonts */,
+				51D63E4519F30D5C00AFF471 /* QuartzCore.framework */,
+				5151E5DE19EA3B33005959E6 /* Info.plist */,
+				51ECE04E19F3FD0E00BFD8C6 /* Foobar.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5151E5F219EA3B33005959E6 /* TwoLineDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5151E5F519EA3B33005959E6 /* TwoLineDateTests.swift */,
+				5151E5F319EA3B33005959E6 /* Supporting Files */,
+			);
+			path = TwoLineDateTests;
+			sourceTree = "<group>";
+		};
+		5151E5F319EA3B33005959E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5151E5F419EA3B33005959E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51ECE05019F453D800BFD8C6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51ECE05119F453EF00BFD8C6 /* Roboto-Bold.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5151E5D919EA3B33005959E6 /* TwoLineDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5151E5F919EA3B33005959E6 /* Build configuration list for PBXNativeTarget "TwoLineDate" */;
+			buildPhases = (
+				5151E5D619EA3B33005959E6 /* Sources */,
+				5151E5D719EA3B33005959E6 /* Frameworks */,
+				5151E5D819EA3B33005959E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoLineDate;
+			productName = TwoLineDate;
+			productReference = 5151E5DA19EA3B33005959E6 /* TwoLineDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5151E5EE19EA3B33005959E6 /* TwoLineDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5151E5FC19EA3B33005959E6 /* Build configuration list for PBXNativeTarget "TwoLineDateTests" */;
+			buildPhases = (
+				5151E5EB19EA3B33005959E6 /* Sources */,
+				5151E5EC19EA3B33005959E6 /* Frameworks */,
+				5151E5ED19EA3B33005959E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5151E5F119EA3B33005959E6 /* PBXTargetDependency */,
+			);
+			name = TwoLineDateTests;
+			productName = TwoLineDateTests;
+			productReference = 5151E5EF19EA3B33005959E6 /* TwoLineDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5151E5D219EA3B33005959E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pascale Beaulac";
+				TargetAttributes = {
+					5151E5D919EA3B33005959E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5151E5EE19EA3B33005959E6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5151E5D919EA3B33005959E6;
+					};
+				};
+			};
+			buildConfigurationList = 5151E5D519EA3B33005959E6 /* Build configuration list for PBXProject "TwoLineDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5151E5D119EA3B33005959E6;
+			productRefGroup = 5151E5DB19EA3B33005959E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5151E5D919EA3B33005959E6 /* TwoLineDate */,
+				5151E5EE19EA3B33005959E6 /* TwoLineDateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5151E5D819EA3B33005959E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51ECE04F19F3FD0E00BFD8C6 /* Foobar.plist in Resources */,
+				5151E5E519EA3B33005959E6 /* Main.storyboard in Resources */,
+				51ECE05219F455E200BFD8C6 /* Roboto-Bold.ttf in Resources */,
+				5151E5EA19EA3B33005959E6 /* LaunchScreen.xib in Resources */,
+				5151E5E719EA3B33005959E6 /* Images.xcassets in Resources */,
+				5151E60419EA3B8C005959E6 /* TwoLineDateView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151E5ED19EA3B33005959E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5151E5D619EA3B33005959E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D63E4419F3094400AFF471 /* DateView.swift in Sources */,
+				5151E5E219EA3B33005959E6 /* ViewController.swift in Sources */,
+				5151E60019EA3B4A005959E6 /* LiveNibView.swift in Sources */,
+				5151E5E019EA3B33005959E6 /* AppDelegate.swift in Sources */,
+				5151E60219EA3B6E005959E6 /* TwoLineDateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151E5EB19EA3B33005959E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151E5F619EA3B33005959E6 /* TwoLineDateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5151E5F119EA3B33005959E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5151E5D919EA3B33005959E6 /* TwoLineDate */;
+			targetProxy = 5151E5F019EA3B33005959E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5151E5E319EA3B33005959E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5151E5E419EA3B33005959E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5151E5E819EA3B33005959E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5151E5E919EA3B33005959E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5151E5F719EA3B33005959E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5151E5F819EA3B33005959E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5151E5FA19EA3B33005959E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoLineDate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5151E5FB19EA3B33005959E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoLineDate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5151E5FD19EA3B33005959E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoLineDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoLineDate.app/TwoLineDate";
+			};
+			name = Debug;
+		};
+		5151E5FE19EA3B33005959E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwoLineDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoLineDate.app/TwoLineDate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5151E5D519EA3B33005959E6 /* Build configuration list for PBXProject "TwoLineDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151E5F719EA3B33005959E6 /* Debug */,
+				5151E5F819EA3B33005959E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5151E5F919EA3B33005959E6 /* Build configuration list for PBXNativeTarget "TwoLineDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151E5FA19EA3B33005959E6 /* Debug */,
+				5151E5FB19EA3B33005959E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5151E5FC19EA3B33005959E6 /* Build configuration list for PBXNativeTarget "TwoLineDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151E5FD19EA3B33005959E6 /* Debug */,
+				5151E5FE19EA3B33005959E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5151E5D219EA3B33005959E6 /* Project object */;
+}
