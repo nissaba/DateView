@@ -9,6 +9,7 @@
 import UIKit
 
 
+@available(iOS 9.0, *)
 class TwoLineDateView: LiveNibView {
     @IBOutlet weak var lblMonth: UILabel!
     @IBOutlet weak var lblMonthDay: UILabel!
@@ -47,7 +48,7 @@ class TwoLineDateView: LiveNibView {
         }
     }
     
-    @IBInspectable var fontColor:UIColor = UIColor.blackColor(){
+    @IBInspectable var fontColor:UIColor = UIColor.black{
         didSet{
             self.proxyView().lblMonth.textColor = fontColor
             self.proxyView().lblMonthDay.textColor = fontColor
@@ -68,7 +69,7 @@ class TwoLineDateView: LiveNibView {
     @IBInspectable internal var borderColor: UIColor?
         {
         didSet{
-            layer.borderColor = borderColor?.CGColor
+            layer.borderColor = borderColor?.cgColor
         }
     }
     
@@ -80,23 +81,24 @@ class TwoLineDateView: LiveNibView {
     
     private func updateFont(){
         if fontBold{
-            self.proxyView().lblMonthDay.font = UIFont.boldSystemFontOfSize(fontSize)
-            self.proxyView().lblMonth.font = UIFont.boldSystemFontOfSize(fontSize-10.0)
-            self.lblMonthDay.font = UIFont.boldSystemFontOfSize(fontSize)
-            self.lblMonth.font = UIFont.boldSystemFontOfSize(fontSize-10.0)
+            self.proxyView().lblMonthDay.font = UIFont.boldSystemFont(ofSize: fontSize)
+            self.proxyView().lblMonth.font = UIFont.boldSystemFont(ofSize: fontSize-10.0)
+            self.lblMonthDay.font = UIFont.boldSystemFont(ofSize: fontSize)
+            self.lblMonth.font = UIFont.boldSystemFont(ofSize: fontSize-10.0)
         }else
         {
-            self.proxyView().lblMonthDay.font = UIFont.systemFontOfSize(fontSize)
-            self.proxyView().lblMonth.font = UIFont.systemFontOfSize(fontSize-10.0)
-            self.lblMonthDay.font = UIFont.systemFontOfSize(fontSize)
-            self.lblMonth.font = UIFont.systemFontOfSize(fontSize-10.0)
+            self.proxyView().lblMonthDay.font = UIFont.systemFont(ofSize: fontSize)
+            self.proxyView().lblMonth.font = UIFont.systemFont(ofSize: fontSize-10.0)
+            self.lblMonthDay.font = UIFont.systemFont(ofSize: fontSize)
+            self.lblMonth.font = UIFont.systemFont(ofSize: fontSize-10.0)
         }
     }
     
+    @available(iOS 9.0, *)
     private func updateMonth(){
         if(upperCasse){
-            self.proxyView().lblMonth.text = month.uppercaseString
-            self.lblMonth.text = month.uppercaseString
+            self.proxyView().lblMonth.text = month.localizedUppercase
+            self.lblMonth.text = month.localizedUppercase
         }else{
             self.proxyView().lblMonth.text = month
             self.lblMonth.text = month
@@ -108,7 +110,7 @@ class TwoLineDateView: LiveNibView {
     }
     
     private func proxyView() -> TwoLineDateView {
-        return self.proxyView! as TwoLineDateView
+        return self.proxyView! as! TwoLineDateView
     }
 
    

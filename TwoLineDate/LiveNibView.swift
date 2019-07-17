@@ -14,9 +14,9 @@ public class LiveNibView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        var view = self.loadNib()
+        let view = self.loadNib()
         view.frame = self.bounds
-        view.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.proxyView = view
         
         if let view = proxyView {
@@ -24,15 +24,15 @@ public class LiveNibView: UIView {
         }
     }
     
-    required public init(coder aDecoder: (NSCoder!)) {
-        super.init(coder: aDecoder)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-
-    override public func awakeAfterUsingCoder(aDecoder: NSCoder!) -> AnyObject! {
+    
+    public func awakeAfterUsingCoder(aDecoder: NSCoder!) -> AnyObject! {
         if self.subviews.count == 0 {
-            var view = self.loadNib()
-            view.setTranslatesAutoresizingMaskIntoConstraints(false)
-            let contraints = self.constraints()
+            let view = self.loadNib()
+            view.translatesAutoresizingMaskIntoConstraints = false
+            let contraints = self.constraints
             self.removeConstraints(contraints)
             view.addConstraints(contraints)
             view.proxyView = view
@@ -42,8 +42,8 @@ public class LiveNibView: UIView {
     }
 
     private func loadNib() -> LiveNibView {
-        let bundle = NSBundle(forClass: self.dynamicType)
-        return bundle.loadNibNamed(self.nibName(), owner: nil, options: nil)[0] as LiveNibView
+        let bundle = Bundle(for: type(of: self))
+        return bundle.loadNibNamed(self.nibName(), owner: nil, options: nil)![0] as! LiveNibView
     }
     
     public func nibName() -> String {

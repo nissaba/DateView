@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var verticalButton: UIButton!
     @IBAction func togleVertical(sender: AnyObject) {
         dateView.displayVetical = !dateView.displayVetical
-        let btn = sender as UIButton
-        btn.selected = !btn.selected
+        let btn = sender as! UIButton
+        btn.isSelected = !btn.isSelected
     }
     @IBAction func capitalize(sender: AnyObject) {
         dateView.dateCapitalized = !dateView.dateCapitalized
@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let formater = NSDateFormatter()
+        let formater = DateFormatter()
         formater.dateFormat = "dd/MM/yyyy"
-        dateView.date = formater.dateFromString("13/10/1999")!
+        dateView.date = formater.date(from: "13/10/1999")! as NSDate
 
     }
 
